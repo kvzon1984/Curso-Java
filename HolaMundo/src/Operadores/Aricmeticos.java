@@ -17,7 +17,7 @@ public class Aricmeticos {
         System.out.println("multi = " + multi);
 
         int div = i / j;
-        float div2 = (float) i / j;
+        float div2 = (float)i / j;
 
         System.out.println("div = " + div);
         System.out.println("div2 = " + div2);

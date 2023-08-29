@@ -2,7 +2,7 @@ package Wrapper;
 
 public class AutoboxingInteger {
     public static void main(String[] args) {
-        Integer[] enteros = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        Integer[] enteros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int suma = 0;
         for (int i :
                 enteros) {
@@ -13,5 +13,3 @@ public class AutoboxingInteger {
         System.out.println("suma = " + suma);
     }
 }
-
-// Prueba de git

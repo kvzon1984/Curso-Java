@@ -3,7 +3,7 @@ package Strings;
 public class EjemploString {
     public static void main(String[] args) {
         // Los de tipo string son objetos
-        String curso = "Porgramacion en Java";
+        String curso = "Porgramación en Java";
         String curso2 = new String("Porgramacion en java");
         String curso3 = "Porgramacio en Java";
         System.out.println("curso = " + curso);

@@ -8,7 +8,7 @@ public class JavaUtilDate_FormatoFecha {
         Date fecha = new Date();
 
         System.out.println("fecha = " + fecha);
-        SimpleDateFormat df = new SimpleDateFormat("dd MMMM yyyy");
+        SimpleDateFormat df = new SimpleDateFormat("EEEE dd-MMMM-yyy HH:mm:ss");
         String fechaStr = df.format(fecha);
         System.out.println("fechaStr = " + fechaStr);
     }

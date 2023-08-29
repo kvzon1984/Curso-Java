@@ -2,14 +2,14 @@ package Wrapper;
 
 public class IntegerWrapper {
     public static void main(String[] args) {
-        // ? Integer intObjeto = 32768
+        //? Integer intObjeto = 32768
         int intPrimitivo   = 327696;
         Integer intObjeto  = Integer.valueOf(intPrimitivo);
         Integer intObjeto2 = intPrimitivo;
 
         System.out.println("intObjeto = " + intObjeto);
 
-        // ! Convertir de wrapper a primitivo
+        //! Convertir de wrapper a primitivo
         int num  = intObjeto2;
         System.out.println("num = " + num);
         int num2 = intObjeto2.intValue();
@@ -27,6 +27,9 @@ public class IntegerWrapper {
         System.out.println("shortObjeto = " + shortObjeto);
         Byte byteObjeto = intObjeto.byteValue();
         System.out.println("byteObjeto = " + byteObjeto);
+        
+        Long longObject = intObjeto.longValue();
+        System.out.println("longObject = " + longObject);
 
 
     }

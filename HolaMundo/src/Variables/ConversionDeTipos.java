@@ -3,7 +3,7 @@ package Variables;
 public class ConversionDeTipos {
     public static void main(String[] args) {
         String numeroStr;
-        numeroStr = "hola";
+        numeroStr = "25";
         System.out.println("numeroStr = " + numeroStr);
         int numeroInt = Integer.parseInt(numeroStr);
         System.out.println("numeroInt = " + numeroInt);
@@ -61,6 +61,6 @@ public class ConversionDeTipos {
 
         int b = 140;
 
-        System.out.println(a + b);
+        System.out.println(a + b + 15);
     }
 }

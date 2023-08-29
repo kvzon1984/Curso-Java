@@ -15,11 +15,9 @@ public class EjemploStringMetodosArreglos {
 
         for (int i = 0; i < largo; i++){
 
-            System.out.print(array[i]);
+            System.out.println("Arreglo[i]: " + array[i]);
             
         }
-
-        System.out.println();
 
         // Divide un elemento en arreglos
         System.out.println("trabalengua.split(\"a\") = " + trabalengua.split("a"));
